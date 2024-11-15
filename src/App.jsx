@@ -4,10 +4,9 @@ import TextInput from './components/TextInput';
 function App() {
   return (
       <div className="container">
-        <TextInput text="First Name" />
-        <TextInput text="Last Name" />
-        <TextInput text="Email" />
-        <TextInput text="Contact" />
+        <form action="">
+          <TextInput />
+        </form>
       </div>
   );
 }
