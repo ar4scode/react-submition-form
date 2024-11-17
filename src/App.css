@@ -53,3 +53,22 @@ body {
   font-size: .7rem;
   color: #fff;
 }
+
+.gender-container,
+.ability-container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 1rem;
+}
+
+.gender-container label,
+.ability-container label {
+  font-size: .7rem;
+  margin-bottom: 0.5rem;
+}
+
+.genders input,
+.ability input {
+  margin: 0 .5rem;
+}
